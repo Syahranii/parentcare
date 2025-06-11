@@ -1,0 +1,131 @@
+[2025-06-09T17:46:51.410Z] ERROR: relation "public.test_table" does not exist
+[2025-06-09T17:46:53.128Z] ERROR: relation "public.test_table" does not exist
+[2025-06-09T17:46:57.462Z] ERROR: relation "public.test_table" does not exist
+[2025-06-10T05:40:48.390Z] ERROR: Python tidak ditemukan; jalankan tanpa argumen untuk diinstal dari Microsoft Store, atau nonaktifkan pintasan ini dari Pengaturan > Aplikasi > Pengaturan aplikasi lanjutan > Alias eksekusi aplikasi.
+
+[2025-06-10T07:42:23.151Z] ERROR: Traceback (most recent call last):
+  File "C:\Users\syahr\Downloads\DOC-20250608-WA0002\project\ParentCare\ParentCare-BE\src\ml\predict_script.py", line 25, in <module>
+    main()
+  File "C:\Users\syahr\Downloads\DOC-20250608-WA0002\project\ParentCare\ParentCare-BE\src\ml\predict_script.py", line 20, in main
+    label = model.predict(X)[0]
+            ^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'predict'
+
+[2025-06-10T07:42:56.886Z] ERROR: Traceback (most recent call last):
+  File "C:\Users\syahr\Downloads\DOC-20250608-WA0002\project\ParentCare\ParentCare-BE\src\ml\predict_script.py", line 25, in <module>
+    main()
+  File "C:\Users\syahr\Downloads\DOC-20250608-WA0002\project\ParentCare\ParentCare-BE\src\ml\predict_script.py", line 20, in main
+    label = model.predict(X)[0]
+            ^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'predict'
+
+[2025-06-10T07:44:49.836Z] ERROR: Loaded model type: <class 'tuple'>
+C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+Traceback (most recent call last):
+  File "C:\Users\syahr\Downloads\DOC-20250608-WA0002\project\ParentCare\ParentCare-BE\src\ml\predict_script.py", line 34, in <module>
+    main()
+  File "C:\Users\syahr\Downloads\DOC-20250608-WA0002\project\ParentCare\ParentCare-BE\src\ml\predict_script.py", line 29, in main
+    label = model.predict(X)[0]
+            ^^^^^^^^^^^^^^^^
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\ensemble\_forest.py", line 904, in predict
+    proba = self.predict_proba(X)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\ensemble\_forest.py", line 946, in predict_proba
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\ensemble\_forest.py", line 638, in _validate_X_predict
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py", line 2965, in validate_data
+    _check_n_features(_estimator, X, reset=reset)
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py", line 2829, in _check_n_features
+    raise ValueError(
+ValueError: X has 4 features, but RandomForestClassifier is expecting 10 features as input.
+
+[2025-06-10T07:45:18.953Z] ERROR: Loaded model type: <class 'tuple'>
+C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+Traceback (most recent call last):
+  File "C:\Users\syahr\Downloads\DOC-20250608-WA0002\project\ParentCare\ParentCare-BE\src\ml\predict_script.py", line 34, in <module>
+    main()
+  File "C:\Users\syahr\Downloads\DOC-20250608-WA0002\project\ParentCare\ParentCare-BE\src\ml\predict_script.py", line 29, in main
+    label = model.predict(X)[0]
+            ^^^^^^^^^^^^^^^^
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\ensemble\_forest.py", line 904, in predict
+    proba = self.predict_proba(X)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\ensemble\_forest.py", line 946, in predict_proba
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\ensemble\_forest.py", line 638, in _validate_X_predict
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py", line 2965, in validate_data
+    _check_n_features(_estimator, X, reset=reset)
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py", line 2829, in _check_n_features
+    raise ValueError(
+ValueError: X has 4 features, but RandomForestClassifier is expecting 10 features as input.
+
+[2025-06-10T07:51:21.538Z] ERROR: Exception ignored in: <function ResourceTracker.__del__ at 0x000002149F0E62A0>
+Traceback (most recent call last):
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 181, in __del__
+AttributeError: 'super' object has no attribute '__del__'
+
+[2025-06-10T07:51:26.224Z] ERROR: Exception ignored in: <function ResourceTracker.__del__ at 0x00000298419A62A0>
+Traceback (most recent call last):
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 181, in __del__
+AttributeError: 'super' object has no attribute '__del__'
+
+[2025-06-10T08:07:48.895Z] ERROR: Exception ignored in: <function ResourceTracker.__del__ at 0x00000286E0EA2200>
+Traceback (most recent call last):
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 181, in __del__
+AttributeError: 'super' object has no attribute '__del__'
+
+[2025-06-10T08:08:18.664Z] ERROR: Exception ignored in: <function ResourceTracker.__del__ at 0x00000257167F2200>
+Traceback (most recent call last):
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 181, in __del__
+AttributeError: 'super' object has no attribute '__del__'
+
+[2025-06-10T08:16:41.740Z] ERROR: Exception ignored in: <function ResourceTracker.__del__ at 0x000001F62A2860C0>
+Traceback (most recent call last):
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 181, in __del__
+AttributeError: 'super' object has no attribute '__del__'
+
+[2025-06-10T08:17:00.790Z] ERROR: Exception ignored in: <function ResourceTracker.__del__ at 0x000001D510ACA0C0>
+Traceback (most recent call last):
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 181, in __del__
+AttributeError: 'super' object has no attribute '__del__'
+
+[2025-06-10T09:33:40.714Z] ERROR: Exception ignored in: <function ResourceTracker.__del__ at 0x0000025A3CA0A0C0>
+Traceback (most recent call last):
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 181, in __del__
+AttributeError: 'super' object has no attribute '__del__'
+
+[2025-06-10T09:34:08.487Z] ERROR: Exception ignored in: <function ResourceTracker.__del__ at 0x000002616DDEA0C0>
+Traceback (most recent call last):
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 181, in __del__
+AttributeError: 'super' object has no attribute '__del__'
+
+[2025-06-10T09:36:05.553Z] ERROR: Exception ignored in: <function ResourceTracker.__del__ at 0x000002A25E46A0C0>
+Traceback (most recent call last):
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 181, in __del__
+AttributeError: 'super' object has no attribute '__del__'
+
+[2025-06-10T09:40:24.642Z] ERROR: Exception ignored in: <function ResourceTracker.__del__ at 0x0000028EEBC1A0C0>
+Traceback (most recent call last):
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 181, in __del__
+AttributeError: 'super' object has no attribute '__del__'
+
+[2025-06-10T19:51:39.053Z] ERROR: Missing or undefined handler: POST /api/parentmatch
+[2025-06-11T02:48:55.903Z] ERROR: Missing or undefined handler: POST /api/parentmatch
+[2025-06-11T03:03:01.626Z] ERROR: Missing or undefined handler: GET /api/forum/{id}
+[2025-06-11T03:03:10.297Z] ERROR: Missing or undefined handler: GET /api/forum/{id}
+[2025-06-11T03:04:26.356Z] ERROR: Missing or undefined handler: GET /api/forum/{id}
+[2025-06-11T03:04:54.089Z] ERROR: Missing or undefined handler: GET /api/forum/{id}
+[2025-06-11T03:04:57.341Z] ERROR: Missing or undefined handler: GET /api/forum/{id}
+[2025-06-11T05:02:13.465Z] ERROR: authRoutes is not defined
+[2025-06-11T05:02:14.760Z] ERROR: authRoutes is not defined
+[2025-06-11T05:02:32.813Z] ERROR: authRoutes is not defined
+[2025-06-11T05:03:06.753Z] ERROR: authRoutes is not defined
+[2025-06-11T05:04:20.362Z] ERROR: New route /api/forum conflicts with existing /api/forum

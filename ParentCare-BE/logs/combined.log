@@ -1,0 +1,592 @@
+[2025-06-09T17:34:06.377Z] INFO: Server running at: http://localhost:4000
+[2025-06-09T17:46:51.410Z] ERROR: relation "public.test_table" does not exist
+[2025-06-09T17:46:53.128Z] ERROR: relation "public.test_table" does not exist
+[2025-06-09T17:46:57.462Z] ERROR: relation "public.test_table" does not exist
+[2025-06-09T17:48:48.524Z] INFO: Server running at: http://localhost:4000
+[2025-06-09T21:43:18.759Z] INFO: Server running at: http://localhost:4000
+[2025-06-09T21:43:21.210Z] INFO: Server running at: http://localhost:4000
+[2025-06-09T21:43:29.352Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T04:23:34.513Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T04:23:56.602Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T04:23:58.781Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T04:24:02.367Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T04:24:09.407Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T05:40:48.024Z] INFO: [OPTIONS] /api/parentmatch
+[2025-06-10T05:40:48.048Z] INFO: [POST] /api/parentmatch
+[2025-06-10T05:40:48.390Z] ERROR: Python tidak ditemukan; jalankan tanpa argumen untuk diinstal dari Microsoft Store, atau nonaktifkan pintasan ini dari Pengaturan > Aplikasi > Pengaturan aplikasi lanjutan > Alias eksekusi aplikasi.
+
+[2025-06-10T07:42:10.776Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T07:42:18.395Z] INFO: [OPTIONS] /api/parentmatch
+[2025-06-10T07:42:18.409Z] INFO: [POST] /api/parentmatch
+[2025-06-10T07:42:23.151Z] ERROR: Traceback (most recent call last):
+  File "C:\Users\syahr\Downloads\DOC-20250608-WA0002\project\ParentCare\ParentCare-BE\src\ml\predict_script.py", line 25, in <module>
+    main()
+  File "C:\Users\syahr\Downloads\DOC-20250608-WA0002\project\ParentCare\ParentCare-BE\src\ml\predict_script.py", line 20, in main
+    label = model.predict(X)[0]
+            ^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'predict'
+
+[2025-06-10T07:42:54.321Z] INFO: [POST] /api/parentmatch
+[2025-06-10T07:42:56.886Z] ERROR: Traceback (most recent call last):
+  File "C:\Users\syahr\Downloads\DOC-20250608-WA0002\project\ParentCare\ParentCare-BE\src\ml\predict_script.py", line 25, in <module>
+    main()
+  File "C:\Users\syahr\Downloads\DOC-20250608-WA0002\project\ParentCare\ParentCare-BE\src\ml\predict_script.py", line 20, in main
+    label = model.predict(X)[0]
+            ^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'predict'
+
+[2025-06-10T07:44:47.260Z] INFO: [POST] /api/parentmatch
+[2025-06-10T07:44:49.836Z] ERROR: Loaded model type: <class 'tuple'>
+C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+Traceback (most recent call last):
+  File "C:\Users\syahr\Downloads\DOC-20250608-WA0002\project\ParentCare\ParentCare-BE\src\ml\predict_script.py", line 34, in <module>
+    main()
+  File "C:\Users\syahr\Downloads\DOC-20250608-WA0002\project\ParentCare\ParentCare-BE\src\ml\predict_script.py", line 29, in main
+    label = model.predict(X)[0]
+            ^^^^^^^^^^^^^^^^
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\ensemble\_forest.py", line 904, in predict
+    proba = self.predict_proba(X)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\ensemble\_forest.py", line 946, in predict_proba
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\ensemble\_forest.py", line 638, in _validate_X_predict
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py", line 2965, in validate_data
+    _check_n_features(_estimator, X, reset=reset)
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py", line 2829, in _check_n_features
+    raise ValueError(
+ValueError: X has 4 features, but RandomForestClassifier is expecting 10 features as input.
+
+[2025-06-10T07:45:16.233Z] INFO: [POST] /api/parentmatch
+[2025-06-10T07:45:18.953Z] ERROR: Loaded model type: <class 'tuple'>
+C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+Traceback (most recent call last):
+  File "C:\Users\syahr\Downloads\DOC-20250608-WA0002\project\ParentCare\ParentCare-BE\src\ml\predict_script.py", line 34, in <module>
+    main()
+  File "C:\Users\syahr\Downloads\DOC-20250608-WA0002\project\ParentCare\ParentCare-BE\src\ml\predict_script.py", line 29, in main
+    label = model.predict(X)[0]
+            ^^^^^^^^^^^^^^^^
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\ensemble\_forest.py", line 904, in predict
+    proba = self.predict_proba(X)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\ensemble\_forest.py", line 946, in predict_proba
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\ensemble\_forest.py", line 638, in _validate_X_predict
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py", line 2965, in validate_data
+    _check_n_features(_estimator, X, reset=reset)
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py", line 2829, in _check_n_features
+    raise ValueError(
+ValueError: X has 4 features, but RandomForestClassifier is expecting 10 features as input.
+
+[2025-06-10T07:51:14.470Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T07:51:20.932Z] INFO: [POST] /api/parentmatch
+[2025-06-10T07:51:21.538Z] ERROR: Exception ignored in: <function ResourceTracker.__del__ at 0x000002149F0E62A0>
+Traceback (most recent call last):
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 181, in __del__
+AttributeError: 'super' object has no attribute '__del__'
+
+[2025-06-10T07:51:25.558Z] INFO: [POST] /api/parentmatch
+[2025-06-10T07:51:26.224Z] ERROR: Exception ignored in: <function ResourceTracker.__del__ at 0x00000298419A62A0>
+Traceback (most recent call last):
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 181, in __del__
+AttributeError: 'super' object has no attribute '__del__'
+
+[2025-06-10T08:07:39.412Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T08:07:48.225Z] INFO: [POST] /api/parentmatch
+[2025-06-10T08:07:48.895Z] ERROR: Exception ignored in: <function ResourceTracker.__del__ at 0x00000286E0EA2200>
+Traceback (most recent call last):
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 181, in __del__
+AttributeError: 'super' object has no attribute '__del__'
+
+[2025-06-10T08:08:17.928Z] INFO: [POST] /api/parentmatch
+[2025-06-10T08:08:18.664Z] ERROR: Exception ignored in: <function ResourceTracker.__del__ at 0x00000257167F2200>
+Traceback (most recent call last):
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 181, in __del__
+AttributeError: 'super' object has no attribute '__del__'
+
+[2025-06-10T08:14:32.860Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T08:14:36.170Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T08:16:31.847Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T08:16:41.079Z] INFO: [POST] /api/parentmatch
+[2025-06-10T08:16:41.740Z] ERROR: Exception ignored in: <function ResourceTracker.__del__ at 0x000001F62A2860C0>
+Traceback (most recent call last):
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 181, in __del__
+AttributeError: 'super' object has no attribute '__del__'
+
+[2025-06-10T08:17:00.144Z] INFO: [POST] /api/parentmatch
+[2025-06-10T08:17:00.790Z] ERROR: Exception ignored in: <function ResourceTracker.__del__ at 0x000001D510ACA0C0>
+Traceback (most recent call last):
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 181, in __del__
+AttributeError: 'super' object has no attribute '__del__'
+
+[2025-06-10T09:33:27.382Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T09:33:40.044Z] INFO: [POST] /api/parentmatch
+[2025-06-10T09:33:40.714Z] ERROR: Exception ignored in: <function ResourceTracker.__del__ at 0x0000025A3CA0A0C0>
+Traceback (most recent call last):
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 181, in __del__
+AttributeError: 'super' object has no attribute '__del__'
+
+[2025-06-10T09:34:07.847Z] INFO: [POST] /api/parentmatch
+[2025-06-10T09:34:08.487Z] ERROR: Exception ignored in: <function ResourceTracker.__del__ at 0x000002616DDEA0C0>
+Traceback (most recent call last):
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 181, in __del__
+AttributeError: 'super' object has no attribute '__del__'
+
+[2025-06-10T09:35:57.214Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T09:36:04.916Z] INFO: [POST] /api/parentmatch
+[2025-06-10T09:36:05.553Z] ERROR: Exception ignored in: <function ResourceTracker.__del__ at 0x000002A25E46A0C0>
+Traceback (most recent call last):
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 181, in __del__
+AttributeError: 'super' object has no attribute '__del__'
+
+[2025-06-10T09:40:24.004Z] INFO: [POST] /api/parentmatch
+[2025-06-10T09:40:24.642Z] ERROR: Exception ignored in: <function ResourceTracker.__del__ at 0x0000028EEBC1A0C0>
+Traceback (most recent call last):
+  File "C:\Users\syahr\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 181, in __del__
+AttributeError: 'super' object has no attribute '__del__'
+
+[2025-06-10T10:18:29.795Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T10:18:33.477Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T10:18:35.280Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T10:23:55.003Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T10:28:19.683Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T10:28:23.432Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T10:28:24.431Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T10:28:29.760Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T10:28:34.425Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T10:28:36.168Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T10:28:38.200Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T10:44:41.671Z] INFO: [OPTIONS] /api/parentmatch
+[2025-06-10T10:44:41.677Z] INFO: [POST] /api/parentmatch
+[2025-06-10T10:45:19.278Z] INFO: [POST] /api/parentmatch
+[2025-06-10T10:49:12.774Z] INFO: [POST] /api/parentmatch
+[2025-06-10T11:00:56.243Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T11:01:03.474Z] INFO: [POST] /api/parentmatch
+[2025-06-10T11:01:39.980Z] INFO: [POST] /api/parentmatch
+[2025-06-10T11:12:25.622Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T11:12:54.373Z] INFO: [POST] /api/parentmatch
+[2025-06-10T11:21:11.496Z] INFO: [POST] /api/parentmatch
+[2025-06-10T11:21:37.882Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T11:21:39.110Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T11:21:43.845Z] INFO: [POST] /api/parentmatch
+[2025-06-10T11:21:55.134Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T11:47:01.287Z] INFO: [POST] /api/parentmatch
+[2025-06-10T11:49:22.939Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T11:49:26.633Z] INFO: [POST] /api/parentmatch
+[2025-06-10T11:49:54.101Z] INFO: [POST] /api/parentmatch
+[2025-06-10T11:54:32.169Z] INFO: [POST] /api/parentmatch
+[2025-06-10T11:58:10.467Z] INFO: [POST] /api/parentmatch
+[2025-06-10T12:08:55.689Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T12:11:27.245Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T12:33:57.819Z] INFO: [POST] /api/parentmatch
+[2025-06-10T12:34:44.159Z] INFO: [POST] /api/parentmatch
+[2025-06-10T12:51:05.724Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T12:57:25.877Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T13:00:33.741Z] INFO: [OPTIONS] /api/parentmatch
+[2025-06-10T13:00:33.763Z] INFO: [POST] /api/parentmatch
+[2025-06-10T13:01:02.881Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T13:01:13.344Z] INFO: [POST] /api/parentmatch
+[2025-06-10T14:03:54.302Z] INFO: [POST] /api/parentmatch
+[2025-06-10T14:04:27.065Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T14:04:50.406Z] INFO: [POST] /api/parentmatch
+[2025-06-10T16:20:04.944Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T16:20:09.800Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T16:20:11.837Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T16:21:03.017Z] INFO: [OPTIONS] /api/parentmatch
+[2025-06-10T16:21:03.034Z] INFO: [POST] /api/parentmatch
+[2025-06-10T17:11:51.123Z] INFO: [POST] /api/parentmatch
+[2025-06-10T17:47:06.206Z] INFO: [POST] /api/parentmatch
+[2025-06-10T17:59:46.229Z] INFO: [POST] /api/parentmatch
+[2025-06-10T18:00:44.411Z] INFO: [POST] /api/parentmatch
+[2025-06-10T18:00:45.814Z] INFO: [POST] /api/parentmatch
+[2025-06-10T18:00:48.018Z] INFO: [POST] /api/parentmatch
+[2025-06-10T18:07:29.894Z] INFO: [POST] /api/parentmatch
+[2025-06-10T18:21:06.685Z] INFO: [OPTIONS] /api/parentmatch
+[2025-06-10T18:21:06.687Z] INFO: [POST] /api/parentmatch
+[2025-06-10T18:21:08.865Z] INFO: [POST] /api/parentmatch
+[2025-06-10T18:22:37.037Z] INFO: [POST] /api/parentmatch
+[2025-06-10T18:25:41.523Z] INFO: [POST] /api/parentmatch
+[2025-06-10T18:25:43.887Z] INFO: [POST] /api/parentmatch
+[2025-06-10T18:25:53.833Z] INFO: [POST] /api/parentmatch
+[2025-06-10T18:26:05.722Z] INFO: [POST] /api/parentmatch
+[2025-06-10T18:29:30.824Z] INFO: [POST] /api/parentmatch
+[2025-06-10T18:36:05.142Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T18:36:08.794Z] INFO: [POST] /api/parentmatch
+[2025-06-10T18:36:15.745Z] INFO: [POST] /api/parentmatch
+[2025-06-10T18:40:46.151Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T18:41:04.021Z] INFO: [POST] /api/parentmatch
+[2025-06-10T19:01:54.268Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T19:01:56.338Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T19:20:44.696Z] INFO: [POST] /api/parentmatch
+[2025-06-10T19:45:06.096Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T19:51:39.053Z] ERROR: Missing or undefined handler: POST /api/parentmatch
+[2025-06-10T22:30:47.084Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T22:30:50.079Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T22:31:10.671Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T22:32:05.564Z] INFO: [OPTIONS] /api/parentmatch
+[2025-06-10T22:32:05.582Z] INFO: [POST] /api/parentmatch
+[2025-06-10T22:37:32.662Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T22:37:38.405Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T22:37:42.381Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T22:37:46.792Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T22:37:48.367Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T22:37:54.056Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T22:37:55.859Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T22:38:00.291Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T22:38:04.405Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T22:38:18.516Z] INFO: [POST] /api/parentmatch
+[2025-06-10T22:39:59.338Z] INFO: [POST] /api/parentmatch
+[2025-06-10T22:43:13.495Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T22:43:21.676Z] INFO: [POST] /api/parentmatch
+[2025-06-10T22:46:10.978Z] INFO: [POST] /api/parentmatch
+[2025-06-10T22:47:17.711Z] INFO: [POST] /api/parentmatch
+[2025-06-10T22:47:41.437Z] INFO: [POST] /api/parentmatch
+[2025-06-10T22:51:22.614Z] INFO: Server running at: http://localhost:4000
+[2025-06-10T22:51:29.527Z] INFO: [POST] /api/parentmatch
+[2025-06-10T23:01:42.098Z] INFO: [POST] /api/parentmatch
+[2025-06-10T23:02:34.313Z] INFO: [POST] /api/parentmatch
+[2025-06-10T23:04:04.767Z] INFO: [POST] /api/parentmatch
+[2025-06-11T01:33:49.042Z] INFO: [OPTIONS] /api/parentmatch
+[2025-06-11T01:33:49.052Z] INFO: [POST] /api/parentmatch
+[2025-06-11T01:35:04.260Z] INFO: [POST] /api/parentmatch
+[2025-06-11T01:35:54.336Z] INFO: [POST] /api/parentmatch
+[2025-06-11T01:37:28.027Z] INFO: [POST] /api/parentmatch
+[2025-06-11T01:38:57.212Z] INFO: [POST] /api/parentmatch
+[2025-06-11T02:07:08.957Z] INFO: [POST] /api/parentmatch
+[2025-06-11T02:48:26.644Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T02:48:42.493Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T02:48:55.903Z] ERROR: Missing or undefined handler: POST /api/parentmatch
+[2025-06-11T02:48:58.241Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T02:49:19.622Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T02:49:39.755Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T02:49:53.468Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T02:55:18.020Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T02:55:26.992Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T03:02:43.686Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T03:03:01.626Z] ERROR: Missing or undefined handler: GET /api/forum/{id}
+[2025-06-11T03:03:03.119Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T03:03:10.297Z] ERROR: Missing or undefined handler: GET /api/forum/{id}
+[2025-06-11T03:03:18.827Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T03:04:26.356Z] ERROR: Missing or undefined handler: GET /api/forum/{id}
+[2025-06-11T03:04:54.089Z] ERROR: Missing or undefined handler: GET /api/forum/{id}
+[2025-06-11T03:04:57.341Z] ERROR: Missing or undefined handler: GET /api/forum/{id}
+[2025-06-11T03:05:36.625Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T03:55:09.061Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T03:55:31.661Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T03:55:52.343Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T04:07:09.696Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T04:07:25.059Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T04:09:04.784Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T05:01:35.579Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T05:02:05.888Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T05:02:13.465Z] ERROR: authRoutes is not defined
+[2025-06-11T05:02:14.760Z] ERROR: authRoutes is not defined
+[2025-06-11T05:02:32.813Z] ERROR: authRoutes is not defined
+[2025-06-11T05:02:56.404Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T05:03:06.753Z] ERROR: authRoutes is not defined
+[2025-06-11T05:04:20.362Z] ERROR: New route /api/forum conflicts with existing /api/forum
+[2025-06-11T05:09:50.141Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T05:09:58.246Z] INFO: [OPTIONS] /api/auth/register
+[2025-06-11T05:09:58.260Z] INFO: [POST] /api/auth/register
+[2025-06-11T05:11:02.447Z] INFO: [POST] /api/auth/register
+[2025-06-11T05:13:38.343Z] INFO: [OPTIONS] /api/auth/login
+[2025-06-11T05:13:38.348Z] INFO: [POST] /api/auth/login
+[2025-06-11T05:16:39.506Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T05:16:42.310Z] INFO: [POST] /api/auth/login
+[2025-06-11T05:17:13.741Z] INFO: [POST] /api/auth/login
+[2025-06-11T05:18:50.764Z] INFO: [POST] /api/auth/login
+[2025-06-11T05:19:10.336Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T05:19:27.049Z] INFO: [POST] /api/auth/login
+[2025-06-11T05:22:40.299Z] INFO: [POST] /api/auth/login
+[2025-06-11T05:29:13.782Z] INFO: [GET] /api/forum
+[2025-06-11T05:43:58.733Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T05:54:54.663Z] INFO: [GET] /api/forum
+[2025-06-11T05:57:01.882Z] INFO: [GET] /api/forum
+[2025-06-11T05:59:07.534Z] INFO: [GET] /api/forum
+[2025-06-11T06:00:08.414Z] INFO: [GET] /api/forum
+[2025-06-11T06:00:33.935Z] INFO: [OPTIONS] /api/forum
+[2025-06-11T06:00:33.937Z] INFO: [POST] /api/forum
+[2025-06-11T06:00:34.199Z] INFO: [GET] /api/forum
+[2025-06-11T06:00:40.978Z] INFO: [GET] /api/forum
+[2025-06-11T06:00:56.676Z] INFO: [OPTIONS] /api/forum/b739f128-b587-4533-b707-7e851a34cd67/answer
+[2025-06-11T06:00:56.678Z] INFO: [POST] /api/forum/b739f128-b587-4533-b707-7e851a34cd67/answer
+[2025-06-11T06:00:57.226Z] INFO: [GET] /api/forum
+[2025-06-11T06:01:06.209Z] INFO: [POST] /api/forum/b739f128-b587-4533-b707-7e851a34cd67/answer
+[2025-06-11T06:01:06.450Z] INFO: [GET] /api/forum
+[2025-06-11T06:03:55.603Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T06:04:25.302Z] INFO: [GET] /api/forum
+[2025-06-11T06:04:40.809Z] INFO: [POST] /api/forum
+[2025-06-11T06:11:30.703Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T06:11:34.587Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T06:11:37.967Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T06:12:09.532Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T06:12:13.333Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T06:12:17.234Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T06:13:12.017Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T06:13:15.448Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T06:13:27.327Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T06:13:33.376Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T06:13:38.261Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T06:13:50.355Z] INFO: [GET] /api/forum
+[2025-06-11T06:15:05.854Z] INFO: [GET] /api/forum
+[2025-06-11T06:15:47.342Z] INFO: [POST] /api/auth/login
+[2025-06-11T06:15:56.063Z] INFO: [GET] /api/forum
+[2025-06-11T06:15:56.261Z] INFO: [GET] /api/forum
+[2025-06-11T06:22:37.594Z] INFO: [POST] /api/auth/login
+[2025-06-11T06:31:12.037Z] INFO: [POST] /api/auth/login
+[2025-06-11T06:31:24.927Z] INFO: [GET] /api/forum
+[2025-06-11T06:31:46.023Z] INFO: [POST] /api/auth/login
+[2025-06-11T06:31:52.865Z] INFO: [GET] /api/forum
+[2025-06-11T06:31:57.776Z] INFO: [GET] /api/forum
+[2025-06-11T06:35:30.150Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T06:35:32.975Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T06:35:45.466Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T06:35:52.026Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T06:39:48.637Z] INFO: [POST] /api/auth/login
+[2025-06-11T07:47:22.088Z] INFO: [OPTIONS] /api/auth/login
+[2025-06-11T07:47:22.093Z] INFO: [POST] /api/auth/login
+[2025-06-11T07:55:23.454Z] INFO: [POST] /api/auth/login
+[2025-06-11T08:06:31.770Z] INFO: [POST] /api/auth/login
+[2025-06-11T08:08:43.395Z] INFO: [POST] /api/auth/login
+[2025-06-11T08:09:32.841Z] INFO: [POST] /api/auth/login
+[2025-06-11T08:11:31.691Z] INFO: [POST] /api/auth/login
+[2025-06-11T08:12:04.210Z] INFO: [POST] /api/auth/login
+[2025-06-11T08:13:45.850Z] INFO: [POST] /api/auth/login
+[2025-06-11T08:14:14.500Z] INFO: [POST] /api/auth/login
+[2025-06-11T08:14:46.089Z] INFO: [POST] /api/auth/login
+[2025-06-11T08:15:56.918Z] INFO: [OPTIONS] /api/auth/login
+[2025-06-11T08:15:56.922Z] INFO: [POST] /api/auth/login
+[2025-06-11T08:16:11.993Z] INFO: [POST] /api/auth/login
+[2025-06-11T08:24:58.990Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T08:25:13.976Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T08:25:26.000Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T08:25:52.132Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T08:28:12.240Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T08:35:42.583Z] INFO: [OPTIONS] /api/auth/login
+[2025-06-11T08:37:58.995Z] INFO: [OPTIONS] /api/auth/login
+[2025-06-11T08:41:20.133Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T08:41:32.558Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T08:43:00.149Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T08:45:15.172Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T08:46:15.172Z] INFO: [OPTIONS] /api/auth/login
+[2025-06-11T08:56:52.600Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T08:56:57.967Z] INFO: [OPTIONS] /api/auth/login
+[2025-06-11T08:56:57.980Z] INFO: [POST] /api/auth/login
+[2025-06-11T09:02:16.297Z] INFO: [GET] /api/auth/check
+[2025-06-11T09:02:16.302Z] INFO: [GET] /api/auth/check
+[2025-06-11T09:03:38.974Z] INFO: [POST] /api/auth/login
+[2025-06-11T09:03:42.843Z] INFO: [GET] /api/auth/check
+[2025-06-11T09:05:01.339Z] INFO: [GET] /api/auth/check
+[2025-06-11T09:05:37.715Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:05:46.860Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:05:55.218Z] INFO: [GET] /api/auth/check
+[2025-06-11T09:05:58.297Z] INFO: [GET] /api/auth/check
+[2025-06-11T09:06:27.421Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:06:30.154Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:06:35.498Z] INFO: [GET] /api/auth/check
+[2025-06-11T09:11:58.710Z] INFO: [GET] /api/auth/check
+[2025-06-11T09:16:54.555Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:17:23.075Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:17:29.756Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:17:32.221Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:22:49.760Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:23:08.969Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:26:02.794Z] INFO: [POST] /api/auth/login
+[2025-06-11T09:30:53.098Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:31:11.781Z] INFO: [POST] /api/auth/login
+[2025-06-11T09:32:50.921Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:32:59.615Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:33:02.451Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:33:26.597Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:33:30.551Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:42:48.807Z] INFO: [GET] /api/auth/me
+[2025-06-11T09:43:01.946Z] INFO: [POST] /api/auth/login
+[2025-06-11T09:43:05.233Z] INFO: [GET] /api/auth/me
+[2025-06-11T09:44:38.657Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:44:39.996Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:44:41.106Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:44:49.947Z] INFO: [GET] /api/auth/me
+[2025-06-11T09:46:08.785Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:46:14.825Z] INFO: [GET] /api/auth/me
+[2025-06-11T09:46:41.196Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:46:44.798Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:47:08.134Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:47:13.626Z] INFO: [GET] /api/auth/me
+[2025-06-11T09:48:03.815Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:48:09.341Z] INFO: [GET] /api/auth/me
+[2025-06-11T09:48:21.983Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T09:53:53.799Z] INFO: Server running at: http://LAPTOP-F2L6EE4T:4000
+[2025-06-11T09:54:36.755Z] INFO: Server running at: http://LAPTOP-F2L6EE4T:4000
+[2025-06-11T09:54:43.399Z] INFO: [GET] /api/auth/me
+[2025-06-11T09:54:59.869Z] INFO: [POST] /api/auth/login
+[2025-06-11T09:55:03.043Z] INFO: [GET] /api/auth/me
+[2025-06-11T09:57:03.404Z] INFO: [GET] /api/auth/me
+[2025-06-11T09:57:03.840Z] INFO: [GET] /favicon.ico
+[2025-06-11T09:58:09.664Z] INFO: Server running at: http://LAPTOP-F2L6EE4T:4000
+[2025-06-11T09:58:33.747Z] INFO: Server running at: http://LAPTOP-F2L6EE4T:4000
+[2025-06-11T09:58:36.511Z] INFO: Server running at: http://LAPTOP-F2L6EE4T:4000
+[2025-06-11T09:58:43.485Z] INFO: [GET] /api/auth/me
+[2025-06-11T09:59:02.794Z] INFO: [POST] /api/auth/login
+[2025-06-11T09:59:05.453Z] INFO: [GET] /api/auth/me
+[2025-06-11T09:59:08.892Z] INFO: [GET] /api/auth/me
+[2025-06-11T09:59:56.048Z] INFO: Server running at: http://LAPTOP-F2L6EE4T:4000
+[2025-06-11T10:00:18.262Z] INFO: [POST] /api/auth/login
+[2025-06-11T10:00:21.954Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:00:25.773Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:02:22.636Z] INFO: Server running at: http://LAPTOP-F2L6EE4T:4000
+[2025-06-11T10:02:24.945Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:02:32.460Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:02:49.577Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:03:13.137Z] INFO: [POST] /api/auth/login
+[2025-06-11T10:03:15.893Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:03:19.807Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:04:59.411Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:05:19.855Z] INFO: [POST] /api/auth/login
+[2025-06-11T10:05:22.255Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:07:21.393Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:07:41.018Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:08:03.401Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:08:18.347Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:08:49.066Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:09:07.545Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:09:09.251Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:09:22.454Z] INFO: [POST] /api/auth/login
+[2025-06-11T10:09:25.729Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:11:22.588Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:13:25.030Z] INFO: [POST] /api/auth/login
+[2025-06-11T10:13:28.968Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:13:32.714Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:13:32.819Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:13:32.828Z] INFO: [GET] /api/forum
+[2025-06-11T10:13:33.056Z] INFO: [GET] /api/forum
+[2025-06-11T10:13:40.178Z] INFO: [OPTIONS] /api/forum
+[2025-06-11T10:13:40.181Z] INFO: [POST] /api/forum
+[2025-06-11T10:17:50.732Z] INFO: [POST] /api/forum
+[2025-06-11T10:19:48.084Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:19:59.777Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:20:00.048Z] INFO: [GET] /api/forum
+[2025-06-11T10:20:05.118Z] INFO: [POST] /api/forum
+[2025-06-11T10:22:39.367Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:22:39.928Z] INFO: [GET] /api/forum
+[2025-06-11T10:22:46.107Z] INFO: [POST] /api/forum
+[2025-06-11T10:26:12.602Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:26:14.196Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:26:14.854Z] INFO: [GET] /api/forum
+[2025-06-11T10:27:27.512Z] INFO: [POST] /api/forum
+[2025-06-11T10:27:33.893Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:27:34.200Z] INFO: [GET] /api/forum
+[2025-06-11T10:27:38.003Z] INFO: [POST] /api/forum
+[2025-06-11T10:29:51.698Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:29:52.615Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:29:53.239Z] INFO: [GET] /api/forum
+[2025-06-11T10:29:58.234Z] INFO: [POST] /api/forum
+[2025-06-11T10:32:05.865Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:32:06.608Z] INFO: [GET] /api/forum
+[2025-06-11T10:32:08.687Z] INFO: [POST] /api/forum
+[2025-06-11T10:35:04.395Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:35:04.990Z] INFO: [GET] /api/forum
+[2025-06-11T10:35:08.021Z] INFO: [POST] /api/forum
+[2025-06-11T10:37:47.427Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:37:48.029Z] INFO: [GET] /api/forum
+[2025-06-11T10:37:51.189Z] INFO: [POST] /api/forum
+[2025-06-11T10:40:07.900Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:40:10.409Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:40:12.985Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:40:21.819Z] INFO: [POST] /api/forum
+[2025-06-11T10:41:30.653Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:41:32.615Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:41:39.316Z] INFO: [POST] /api/forum
+[2025-06-11T10:42:48.555Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:42:51.904Z] INFO: [POST] /api/forum
+[2025-06-11T10:44:07.438Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:44:14.804Z] INFO: [POST] /api/forum
+[2025-06-11T10:44:23.494Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:44:23.944Z] INFO: [GET] /api/forum
+[2025-06-11T10:44:26.509Z] INFO: [POST] /api/forum
+[2025-06-11T10:46:29.797Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:46:35.986Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:46:36.257Z] INFO: [GET] /api/forum
+[2025-06-11T10:47:52.297Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T10:48:00.918Z] INFO: [POST] /api/forum
+[2025-06-11T10:49:16.396Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:49:17.021Z] INFO: [GET] /api/forum
+[2025-06-11T10:50:21.479Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:50:21.961Z] INFO: [GET] /api/forum
+[2025-06-11T10:50:29.768Z] INFO: [POST] /api/forum
+[2025-06-11T10:50:38.070Z] INFO: [POST] /api/forum
+[2025-06-11T10:54:22.107Z] INFO: [POST] /api/forum
+[2025-06-11T10:54:29.166Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:54:29.889Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:54:34.131Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:54:36.305Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:54:36.793Z] INFO: [GET] /api/forum
+[2025-06-11T10:55:21.035Z] INFO: [POST] /api/forum
+[2025-06-11T10:56:16.544Z] INFO: [GET] /api/auth/me
+[2025-06-11T10:56:17.155Z] INFO: [GET] /api/forum
+[2025-06-11T10:56:23.655Z] INFO: [POST] /api/forum
+[2025-06-11T10:58:36.429Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T11:00:25.009Z] INFO: [GET] /api/auth/me
+[2025-06-11T11:00:25.652Z] INFO: [GET] /api/auth/me
+[2025-06-11T11:00:25.666Z] INFO: [GET] /api/forum
+[2025-06-11T11:00:25.929Z] INFO: [GET] /api/forum
+[2025-06-11T11:00:29.705Z] INFO: [POST] /api/forum
+[2025-06-11T11:02:36.390Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T11:03:13.440Z] INFO: [POST] /api/forum
+[2025-06-11T11:03:24.535Z] INFO: [GET] /api/auth/me
+[2025-06-11T11:03:24.969Z] INFO: [GET] /api/forum
+[2025-06-11T11:03:28.953Z] INFO: [POST] /api/forum
+[2025-06-11T11:05:38.492Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T11:05:42.870Z] INFO: [GET] /api/auth/me
+[2025-06-11T11:05:43.219Z] INFO: [GET] /api/forum
+[2025-06-11T11:05:47.560Z] INFO: [POST] /api/forum
+[2025-06-11T11:08:30.864Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T11:08:36.052Z] INFO: [GET] /api/auth/me
+[2025-06-11T11:08:36.292Z] INFO: [GET] /api/forum
+[2025-06-11T11:08:39.304Z] INFO: [POST] /api/forum
+[2025-06-11T11:09:58.111Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T11:10:03.570Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T11:10:47.629Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T11:10:53.647Z] INFO: [GET] /api/auth/me
+[2025-06-11T11:10:53.934Z] INFO: [GET] /api/forum
+[2025-06-11T11:10:56.273Z] INFO: [POST] /api/forum
+[2025-06-11T11:11:54.988Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T11:12:01.390Z] INFO: [GET] /api/auth/me
+[2025-06-11T11:12:02.831Z] INFO: [GET] /api/forum
+[2025-06-11T11:12:05.561Z] INFO: [POST] /api/forum
+[2025-06-11T11:16:41.585Z] INFO: [GET] /api/auth/me
+[2025-06-11T11:16:41.592Z] INFO: [GET] /api/auth/me
+[2025-06-11T11:16:54.452Z] INFO: [POST] /api/forum
+[2025-06-11T11:17:19.158Z] INFO: [GET] /api/auth/me
+[2025-06-11T11:17:30.565Z] INFO: [OPTIONS] /api/auth/login
+[2025-06-11T11:17:30.575Z] INFO: [POST] /api/auth/login
+[2025-06-11T11:17:35.917Z] INFO: [GET] /api/auth/me
+[2025-06-11T11:17:36.515Z] INFO: [GET] /api/auth/me
+[2025-06-11T11:17:36.619Z] INFO: [GET] /api/auth/me
+[2025-06-11T11:17:36.679Z] INFO: [GET] /api/forum
+[2025-06-11T11:17:36.928Z] INFO: [GET] /api/forum
+[2025-06-11T11:17:42.433Z] INFO: [POST] /api/forum
+[2025-06-11T11:20:22.943Z] INFO: [POST] /api/forum
+[2025-06-11T11:23:01.904Z] INFO: [POST] /api/forum
+[2025-06-11T11:24:34.366Z] INFO: [POST] /api/forum
+[2025-06-11T11:27:56.165Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T11:27:58.766Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T11:28:08.372Z] INFO: [POST] /api/forum
+[2025-06-11T11:28:08.848Z] INFO: [GET] /api/forum
+[2025-06-11T11:28:17.737Z] INFO: [POST] /api/forum
+[2025-06-11T11:28:18.171Z] INFO: [GET] /api/forum
+[2025-06-11T11:28:24.958Z] INFO: [OPTIONS] /api/forum/b739f128-b587-4533-b707-7e851a34cd67/answer
+[2025-06-11T11:28:24.967Z] INFO: [POST] /api/forum/b739f128-b587-4533-b707-7e851a34cd67/answer
+[2025-06-11T11:31:19.750Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T11:32:54.761Z] INFO: [POST] /api/forum/b739f128-b587-4533-b707-7e851a34cd67/answer
+[2025-06-11T11:33:59.247Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T11:34:01.031Z] INFO: [POST] /api/forum/b739f128-b587-4533-b707-7e851a34cd67/answer
+[2025-06-11T11:35:11.453Z] INFO: Server running at: http://localhost:4000
+[2025-06-11T11:35:14.447Z] INFO: [POST] /api/forum/b739f128-b587-4533-b707-7e851a34cd67/answer
+[2025-06-11T11:35:14.730Z] INFO: [GET] /api/forum
