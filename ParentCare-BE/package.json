@@ -1,0 +1,30 @@
+{
+  "name": "parentcare-be",
+  "version": "1.0.0",
+  "description": "Backend API untuk aplikasi ParentCare menggunakan Hapi.js dan Supabase",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "hapi",
+    "supabase",
+    "parenting",
+    "forum",
+    "ml"
+  ],
+  "author": "Nama Kamu",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.1",
+    "@supabase/supabase-js": "^2.39.5",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
