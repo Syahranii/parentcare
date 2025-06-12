@@ -34,6 +34,7 @@ const getPostById = async (request, h) => {
 
 const createPost = async (req, h) => {
   try {
+<<<<<<< HEAD
    const token = req.state.token;  // ambil dari cookie 'token'
 if (!token) {
   return h.response({ message: 'Token tidak ditemukan di cookie' }).code(401);
@@ -49,6 +50,14 @@ if (!token) {
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
     // Ganti user_id jadi id sesuai payload token
+=======
+    const token = req.state.token;  // ambil dari cookie 'token'
+    if (!token) {
+      return h.response({ message: 'Token tidak ditemukan di cookie' }).code(401);
+    }
+
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+>>>>>>> origin/master
     const user_id = decoded.id;
     if (!user_id) {
       return h.response({ message: 'user_id tidak ditemukan di token' }).code(401);
@@ -133,6 +142,10 @@ const createAnswer = async (req, h) => {
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 module.exports = {
   getAllPosts,
   createPost,

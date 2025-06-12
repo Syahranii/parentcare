@@ -129,3 +129,16 @@ AttributeError: 'super' object has no attribute '__del__'
 [2025-06-11T05:02:32.813Z] ERROR: authRoutes is not defined
 [2025-06-11T05:03:06.753Z] ERROR: authRoutes is not defined
 [2025-06-11T05:04:20.362Z] ERROR: New route /api/forum conflicts with existing /api/forum
+<<<<<<< HEAD
+=======
+[2025-06-12T03:48:07.998Z] ERROR: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+[2025-06-12T03:48:14.404Z] ERROR: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+[2025-06-12T03:48:20.699Z] ERROR: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+[2025-06-12T03:55:28.399Z] ERROR: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+[2025-06-12T03:55:52.940Z] ERROR: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+>>>>>>> origin/master

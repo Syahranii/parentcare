@@ -590,3 +590,150 @@ AttributeError: 'super' object has no attribute '__del__'
 [2025-06-11T11:35:11.453Z] INFO: Server running at: http://localhost:4000
 [2025-06-11T11:35:14.447Z] INFO: [POST] /api/forum/b739f128-b587-4533-b707-7e851a34cd67/answer
 [2025-06-11T11:35:14.730Z] INFO: [GET] /api/forum
+<<<<<<< HEAD
+=======
+[2025-06-12T03:34:29.766Z] INFO: Server running at: http://localhost:4000
+[2025-06-12T03:45:49.349Z] INFO: [GET] /api/auth/me
+[2025-06-12T03:46:12.163Z] INFO: [OPTIONS] /api/auth/login
+[2025-06-12T03:46:12.170Z] INFO: [POST] /api/auth/login
+[2025-06-12T03:46:16.538Z] INFO: [GET] /api/auth/me
+[2025-06-12T03:47:06.054Z] INFO: [GET] /api/auth/me
+[2025-06-12T03:47:06.521Z] INFO: [GET] /api/auth/me
+[2025-06-12T03:47:06.601Z] INFO: [GET] /api/forum
+[2025-06-12T03:47:06.920Z] INFO: [GET] /api/forum
+[2025-06-12T03:47:16.756Z] INFO: [OPTIONS] /api/forum
+[2025-06-12T03:47:16.769Z] INFO: [POST] /api/forum
+[2025-06-12T03:47:17.130Z] INFO: [GET] /api/forum
+[2025-06-12T03:47:43.108Z] INFO: [OPTIONS] /api/forum/d3a122bc-2ee3-4fb4-bf06-0b33b258fced/answer
+[2025-06-12T03:47:43.129Z] INFO: [POST] /api/forum/d3a122bc-2ee3-4fb4-bf06-0b33b258fced/answer
+[2025-06-12T03:47:43.574Z] INFO: [GET] /api/forum
+[2025-06-12T03:48:06.897Z] INFO: [OPTIONS] /api/parentmatch
+[2025-06-12T03:48:06.935Z] INFO: [POST] /api/parentmatch
+[2025-06-12T03:48:07.998Z] ERROR: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+[2025-06-12T03:48:14.193Z] INFO: [POST] /api/parentmatch
+[2025-06-12T03:48:14.404Z] ERROR: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+[2025-06-12T03:48:20.547Z] INFO: [POST] /api/parentmatch
+[2025-06-12T03:48:20.699Z] ERROR: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+[2025-06-12T03:55:28.202Z] INFO: [POST] /api/parentmatch
+[2025-06-12T03:55:28.399Z] ERROR: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+[2025-06-12T03:55:52.802Z] INFO: [POST] /api/parentmatch
+[2025-06-12T03:55:52.940Z] ERROR: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+[2025-06-12T04:04:22.698Z] INFO: Server running at: http://localhost:4000
+[2025-06-12T04:19:00.798Z] INFO: [GET] /api/auth/me
+[2025-06-12T04:19:01.867Z] INFO: [GET] /api/forum
+[2025-06-12T04:19:06.505Z] INFO: [POST] /api/forum
+[2025-06-12T04:19:06.834Z] INFO: [GET] /api/forum
+[2025-06-12T04:19:25.685Z] INFO: [POST] /api/forum
+[2025-06-12T04:19:26.072Z] INFO: [GET] /api/forum
+[2025-06-12T04:20:54.674Z] INFO: [POST] /api/parentmatch
+[2025-06-12T04:25:09.446Z] INFO: [POST] /api/parentmatch
+[2025-06-12T05:29:10.475Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:29:12.103Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:29:17.729Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:30:46.078Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:30:53.005Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:30:53.009Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:30:59.358Z] INFO: [POST] /api/auth/login
+[2025-06-12T05:31:03.923Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:31:04.215Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:33:34.288Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:33:34.944Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:34:28.821Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:34:29.504Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:34:49.971Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:34:50.639Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:34:58.072Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:34:58.378Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:39:38.996Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:39:51.741Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:40:58.730Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:42:09.991Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:42:10.046Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:44:07.788Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:47:49.734Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:47:50.413Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:47:50.432Z] INFO: [GET] /api/forum
+[2025-06-12T05:47:50.707Z] INFO: [GET] /api/forum
+[2025-06-12T05:49:09.164Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:49:09.474Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:49:09.491Z] INFO: [GET] /api/forum
+[2025-06-12T05:49:09.769Z] INFO: [GET] /api/forum
+[2025-06-12T05:53:15.785Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:53:16.495Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:53:16.631Z] INFO: [GET] /api/forum
+[2025-06-12T05:54:38.309Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:54:38.595Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:54:38.707Z] INFO: [GET] /api/forum
+[2025-06-12T05:57:18.743Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:57:19.712Z] INFO: [GET] /api/auth/me
+[2025-06-12T05:57:19.719Z] INFO: [GET] /api/forum
+[2025-06-12T05:57:20.043Z] INFO: [GET] /api/forum
+[2025-06-12T06:00:22.078Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:00:22.998Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:00:23.004Z] INFO: [GET] /api/forum
+[2025-06-12T06:00:23.229Z] INFO: [GET] /api/forum
+[2025-06-12T06:05:15.833Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:05:16.718Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:05:16.823Z] INFO: [GET] /api/forum
+[2025-06-12T06:06:45.784Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:06:46.156Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:06:46.298Z] INFO: [GET] /api/forum
+[2025-06-12T06:06:52.127Z] INFO: [OPTIONS] /api/forum
+[2025-06-12T06:06:52.132Z] INFO: [POST] /api/forum
+[2025-06-12T06:06:52.511Z] INFO: [GET] /api/forum
+[2025-06-12T06:07:07.757Z] INFO: [POST] /api/forum
+[2025-06-12T06:07:08.402Z] INFO: [GET] /api/forum
+[2025-06-12T06:19:21.247Z] INFO: Server running at: http://localhost:4000
+[2025-06-12T06:19:23.552Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:19:23.729Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:19:23.902Z] INFO: [GET] /api/forum
+[2025-06-12T06:19:31.830Z] INFO: [POST] /api/forum
+[2025-06-12T06:19:32.239Z] INFO: [GET] /api/forum
+[2025-06-12T06:23:32.802Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:23:33.438Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:23:33.643Z] INFO: [GET] /api/forum
+[2025-06-12T06:23:34.764Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:23:40.309Z] INFO: [POST] /api/forum
+[2025-06-12T06:23:40.638Z] INFO: [GET] /api/forum
+[2025-06-12T06:24:00.800Z] INFO: [POST] /api/forum
+[2025-06-12T06:24:01.150Z] INFO: [GET] /api/forum
+[2025-06-12T06:24:06.700Z] INFO: [POST] /api/forum
+[2025-06-12T06:24:07.083Z] INFO: [GET] /api/forum
+[2025-06-12T06:24:51.903Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:24:52.251Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:24:52.392Z] INFO: [GET] /api/forum
+[2025-06-12T06:24:56.475Z] INFO: [POST] /api/forum
+[2025-06-12T06:24:56.682Z] INFO: [GET] /api/forum
+[2025-06-12T06:42:22.560Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:42:22.565Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:42:26.628Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:42:27.787Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:42:27.791Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:43:29.024Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:43:31.739Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:44:26.600Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:44:28.111Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:44:29.826Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:47:39.148Z] INFO: [OPTIONS] /api/auth/login
+[2025-06-12T06:47:39.152Z] INFO: [POST] /api/auth/login
+[2025-06-12T06:47:45.227Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:47:45.491Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:48:02.378Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:48:02.668Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:48:02.679Z] INFO: [GET] /api/forum
+[2025-06-12T06:48:02.886Z] INFO: [GET] /api/forum
+[2025-06-12T06:51:48.314Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:51:50.080Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:51:50.610Z] INFO: [GET] /api/forum
+[2025-06-12T06:51:54.224Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:51:54.445Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:51:54.466Z] INFO: [GET] /api/forum
+[2025-06-12T06:51:54.767Z] INFO: [GET] /api/forum
+[2025-06-12T06:52:25.318Z] INFO: [GET] /api/auth/me
+[2025-06-12T06:53:24.419Z] INFO: [GET] /api/auth/me
+>>>>>>> origin/master
